@@ -1,0 +1,32 @@
+cmake -DCMAKE_INSTALL_PREFIX=$PWD/install \
+  -DCMAKE_BUILD_TYPE=RELEASE \
+  -DBUILD_SHARED_LIBS=ON \
+  -DTPL_ENABLE_Pthread=OFF \
+  -DTPL_ENABLE_MPI=ON \
+  -DTPL_ENABLE_TBB=OFF \
+  -DTrilinos_ENABLE_Fortran=OFF \
+  -DTrilinos_ENABLE_OpenMP=OFF \
+  -DTrilinos_ENABLE_ALL_OPTIONAL_PACKAGES=OFF \
+  -DTrilinos_ENABLE_AztecOO=ON \
+  -DTrilinos_ENABLE_Amesos=ON \
+  -DTrilinos_ENABLE_Epetra=ON \
+  -DTrilinos_ENABLE_EpetraExt=ON \
+  -DTrilinos_ENABLE_Xpetra=ON \
+  -DTrilinos_ENABLE_Ifpack=ON \
+  -DTrilinos_ENABLE_ML=ON \
+  -DTrilinos_ENABLE_MueLu=ON \
+  -DTrilinos_ENABLE_Sacado=ON \
+  -DTrilinos_ENABLE_Teuchos=ON \
+  -DTrilinos_ENABLE_Triutils=ON \
+  -DTrilinos_ENABLE_Stratimikos=OFF \
+  -DTrilinos_ENABLE_Gtest=OFF \
+  -DTrilinos_ENABLE_Kokkos=ON \
+  -DTrilinos_ENABLE_KokkosCore=ON \
+  -DTrilinos_ENABLE_CXX11:BOOL=ON \
+/home/harsha_lv/CIG_codes/trilinos-12.4.2-Source
+
+#  -DTrilinos_ENABLE_Stratimikos=ON \
+#  -DTrilinos_ENABLE_Thyra=ON \
+#  -DTrilinos_ENABLE_ThyraEpetraAdapters=ON \
+#  -DTrilinos_ENABLE_Triutils=ON \
+#  -DTrilinos_ENABLE_Xpetra=ON \
