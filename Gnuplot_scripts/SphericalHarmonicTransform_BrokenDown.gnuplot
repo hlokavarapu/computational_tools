@@ -1,3 +1,4 @@
+# Spherical Harmonic Transform (SHT) - plot wall clock times of data output produced from Calypso computations.
 set terminal jpeg
 set output "SHT_BrokenDown.jpeg"
 set title "Components of Spherical Harmonic Transform"
